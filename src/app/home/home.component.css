@@ -1,0 +1,181 @@
+ 
+
+/* naV a:active {
+    background-color: #1abc9c;
+    border-radius: 50px;
+    font-size: 2.1rem;
+} */
+
+
+
+/* naV a {
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+} */
+
+.home {
+    background-color: #1abc9c;
+}
+
+h1 {
+    color: aliceblue;
+}
+.bg-kohly {
+    background-color: #1a252f;
+  
+}
+
+
+
+.cont-home i {
+    color: rgb(80, 240, 128);
+
+}
+
+
+
+.cont-home span {
+    position: relative;
+}
+
+.cont-home span::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(8, 206, 241);
+}
+
+.cont-home span::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(8, 206, 243);
+}
+.around {
+    height: 40vh;
+    background-color: #2c3e50;
+}
+
+.around h3 {
+    font-weight: 600;
+}
+
+.icon {
+    padding: 10px;
+    font-size: large;
+    border: 1px solid white;
+    border-radius: 50%;
+
+
+}
+
+
+
+
+
+
+
+
+.lightbox-container{
+    /* pointer-events: all; */
+    /* opacity: 0.5; */
+    background-color: rgba(0,0 , 0, .7);
+} 
+.light-item{
+    position: relative;
+
+      background-image: url(../../assets/img21.jpg);   
+     background-size: cover;
+     width: 50%;
+     height: 50%;
+}
+.light-item i{
+    font-size: 2.1rem;
+    color: aliceblue;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+.color-kohly {
+    color: #2c3e50;
+}
+
+
+
+.portfolio span {
+    position: relative;
+}
+
+.portfolio span::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    width: 100px;
+    height: 3px;
+    background-color: #2c3e50;
+}
+
+.portfolio span::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    width: 100px;
+    height: 3px;
+    background-color: #2c3e50;
+}
+
+/* .bgg i{padding-top:-10px    ;}  */
+.bgg {
+    background-color: #1abc9c;
+    position: relative;
+    transition: opacity 1s;
+    opacity: 0;
+    height: 30px;
+}
+.bgg:hover{
+    opacity: 1;
+}
+
+.bgg i::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    width: 100px;
+    height: 10px;
+    background-color: #ebf0f5;
+    border-radius: 50px;
+}
+
+.bgg i::after {
+    border-radius: 50px;
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 110px;
+    width: 10px;
+    height: 80px;
+    background-color: #ebf2f8;
+}
+
+input{
+    margin-bottom: 10px;
+}

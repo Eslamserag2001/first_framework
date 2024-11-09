@@ -1,0 +1,21 @@
+
+<div class="container bg-body-secondary">
+    <div class="row g-4">
+
+         @for (item of meals; track $index) {
+
+
+             <div class=" col-md-4">
+                 <div class="card shadow">
+                   
+                    <img [src]=" item.img" class="w-100" alt="sea meals ">
+                  <h3> meals: {{item.name}} </h3>
+                  <h5>prise:{{item.price}}</h5>
+
+                     </div>
+             </div>
+
+
+         } 
+    </div>
+</div>

@@ -1,0 +1,8 @@
+.card-info{
+    background-color: rgba(0, 0, 0, 0.719);
+    color: aliceblue;
+}
+.card{
+    height: 50vh;
+    overflow: hidden;
+}

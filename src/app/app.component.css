@@ -1,0 +1,9 @@
+a{
+    color:rgb(11, 201, 160);
+    cursor: pointer;
+}
+.navbar-brand{
+    font-size: 1.9rem;
+  
+    padding: 0;
+}

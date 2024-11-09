@@ -1,0 +1,38 @@
+<p>gallary works!</p>
+
+<div class="container bg-info-subtle">
+    <div class="row g-3">
+        @for (item of listproduct; track $index) {
+        <div class="col-md-4">
+            <div class="card position-relative">
+                <img [src]="item.img" class="w-100" alt="product img">
+                <div class="position-absolute start-0 end-0 bottom-0  card-info">
+
+                    <h3>name: {{item.name}}</h3>
+                     <h4>price: {{item.pricc}}</h4>
+                     <p class="h6">categ: {{item.categ}}</p>
+                </div>
+                     
+
+
+
+            </div>
+        </div>
+        }
+    </div>
+</div>
+<h3 #actionmeel class="my-5 text-center"> do yoy want to eat?,do action with me </h3>
+
+@defer (on interaction(actionmeel)) {
+
+
+<app-recomended></app-recomended>
+
+
+
+
+}
+
+@placeholder {
+    <h5 class="text-center"> you going to see fresh meals from sea </h5>
+} 

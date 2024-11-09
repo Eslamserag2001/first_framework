@@ -1,0 +1,87 @@
+.item-hover{
+    cursor: pointer;
+    opacity: 0;
+    transition: all 1s;
+}
+.item:hover .item-hover{
+    opacity: 80%;
+}
+.portfolio {
+    background-color: rgb(255, 255, 255);
+    /* height: 80vh; */
+
+} 
+
+/* .cont-home i {
+    color: rgb(80, 165, 240);
+
+} */
+.portfolio i {
+    margin-block: 50px;
+    color: rgb(80, 165, 240);
+
+}
+
+
+.cont-home span {
+    position: relative;
+}
+
+.cont-home span::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(8, 206, 241);
+}
+
+.cont-home span::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(8, 206, 243);
+}
+
+
+.around {
+    height: 40vh;
+    background-color: #2c3e50;
+}
+
+.around h3 {
+    font-weight: 600;
+}
+
+.icon {
+    padding: 10px;
+    font-size: large;
+    border: 1px solid white;
+    border-radius: 50%;
+
+
+}
+       /*  */
+ /*               */
+    /*        */
+ .lightbox-container{
+    background-color: rgba(0, 0, 0, 0.61);
+    display: flex;
+}
+.light-item{
+    background-image: url(../../assets/img20.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    
+}
+#close i{
+    font-size: 2rem;
+    cursor: pointer;
+    color: beige;
+     
+}
